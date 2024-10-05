@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Results</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <h1>Sentiment Analysis Results</h1>
+    <div>
+        <h3>Sentiment Distribution</h3>
+        <img src="/static/{{ chart }}" alt="Sentiment Pie Chart">
+    </div>
+    <div>
+        <h3>Sentiment Table</h3>
+        {{ table|safe }}
+    </div>
+    <a href="/">Analyze another file</a>
+</body>
+</html>
+
