@@ -1,3 +1,3 @@
 # Sentimental AI
  
-A sentimental AI modal used to analyse coments and predict the output
+A sentimental AI modal used to analyse comments and predict the outcome
